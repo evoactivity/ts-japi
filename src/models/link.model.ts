@@ -1,4 +1,4 @@
-import { URL } from 'url';
+import { URL } from 'node:url';
 import Meta from './meta.model';
 
 export default class Link {
