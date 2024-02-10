@@ -43,6 +43,9 @@ jobs:
           source_dir: ./src/*
           output_dir: ./docs
           front_page: README.md
+          install_module: typedoc-material-theme
+          theme: typedoc-material-theme
+          themeColor: #2a66fe
           options: typedoc.json
 
       - name: Setup Pages
