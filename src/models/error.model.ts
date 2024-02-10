@@ -4,10 +4,6 @@ import { isObject } from '../utils/is-object';
 import Link from './link.model';
 import Meta from './meta.model';
 
-interface ErrorConstructor {
-  captureStackTrace(thisArg: any, func: any): void
-}
-
 export default class JapiError {
   /**
    * Tests whether `error` has similar attributes to a JapiError
