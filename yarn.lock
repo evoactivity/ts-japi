@@ -1634,6 +1634,11 @@
     globby "^11.0.0"
     read-yaml-file "^1.1.0"
 
+"@material/material-color-utilities@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@material/material-color-utilities/-/material-color-utilities-0.2.7.tgz#ff2a638d2db295a796fa02671410df4f4f97c33e"
+  integrity sha512-0FCeqG6WvK4/Cc06F/xXMd/pv4FeisI0c1tUpBbfhA2n9Y8eZEv4Karjbmf2ZqQCPUWMrGp8A571tCjizxoTiQ==
+
 "@microsoft/api-documenter@^7.18.0":
   version "7.19.2"
   resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.19.2.tgz#49c11af6254ebda6715b019e3fb3cb0ad5d8e62d"
@@ -5440,6 +5445,13 @@ type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
+
+typedoc-material-theme@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/typedoc-material-theme/-/typedoc-material-theme-1.0.2.tgz#2a1d1540ba97cbb793f91288d284ce5d9849851c"
+  integrity sha512-/nH/twYeHrnz5sZaaXzYJ85EOgKqnbl1ivzBKmuEAga1dBsARttwQUTPKAT7XrCPD+rRcoqxuCOdXZ6EGiqRQA==
+  dependencies:
+    "@material/material-color-utilities" "^0.2.7"
 
 typedoc-plugin-markdown@^3.13.2:
   version "3.13.4"
